@@ -49,7 +49,7 @@ class OrientationTest {
     }
 
     @Test
-    void should_return_south_when_direction_is_east_and_turnRight() {
+    void should_returnA_south_when_direction_is_east_and_turnRight() {
         Orientation orientation = new Orientation('E');
         orientation.turnRight();
         assertThat(orientation.direction().value).isEqualTo(3);
@@ -57,7 +57,7 @@ class OrientationTest {
     }
 
     @Test
-    void should_return_south_when_direction_is_east_and_turnRight() {
+    void should_returnV_south_when_direction_is_east_and_turnRight() {
         Orientation orientation = new Orientation('S');
         orientation.turnRight();
         assertThat(orientation.direction().value).isEqualTo(3);
